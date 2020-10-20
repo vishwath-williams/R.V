@@ -1,3 +1,6 @@
+body {
+  background-color: #9cc3d5ff;
+}
 .topcontacts::after {
   width: 80%;
   content: "";
@@ -7,11 +10,22 @@
   margin: 0 auto;
   opacity: 0.5;
 }
+#navbarSupportedContent {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.nav-text {
+  font-weight: 900;
+}
+.container-1 img {
+  height: 150px;
+  width: auto;
+}
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;..") !important;
 }
 .container-1 {
-  background-color: #1e1f21;
+  background-color: #9cc3d5ff;
 }
 .hd1 {
   font-size: 70px;
@@ -88,4 +102,194 @@ ul li a:hover::after {
 }
 .navbar-toggler {
   outline: none !important;
+}
+.sympt {
+  width: 100%;
+}
+
+#sym-p {
+  font-family: "Oregano", cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: rgb(85, 85, 85) !important;
+  font-weight: lighter !important;
+}
+.s-texts {
+  margin: auto;
+}
+
+.card {
+  background: none !important;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.card:hover {
+  box-shadow: 5px 5px 15px #63636386;
+}
+.card-header {
+  background-color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+.card-body {
+  background-color: #0063b2ff;
+  transition: all 0.3s;
+}
+.card-body:hover {
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+}
+.pre-t1 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: white;
+}
+#covid-h1 {
+  font-size: 3vw;
+
+  text-transform: capitalize;
+  letter-spacing: 7px;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 10px !important;
+  background-color: #0063b2ff;
+  box-shadow: -3px -3px 20px rgba(0, 0, 0, 0.1),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.1) !important;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.text-center {
+  text-align: center !important;
+}
+#covid-h1:hover {
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+}
+#motivation {
+  text-align: center;
+  background-color: #9cc3d5ff;
+  padding-top: 0;
+  padding-bottom: 3%;
+}
+.motivation-items {
+  width: auto;
+  height: 550px;
+}
+.testimonial-text {
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.motive-heading {
+  font-size: 3rem !important;
+  line-height: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.c-btn {
+  color: black;
+  font-size: 5rem !important;
+}
+.said-by {
+  margin-left: 300px;
+}
+#pre1:hover {
+  -webkit-transform: scale(1.1) !important;
+  transform: scale(1.1);
+  transition: -webkit-transform 0.75s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+#pre1 {
+  transition: transform 1s ease;
+}
+
+.bundled-plugins {
+  position: relative;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.pluginwrapmain {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+}
+.bundled-plugins .plugin-wrap {
+  width: 25%;
+  text-align: center;
+  height: 400px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-right: 1px solid #f1f1f1;
+}
+.bundled-plugins .plugin-wrap {
+  text-align: center;
+}
+.bundled-plugins .plugin-wrap span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.bundled-plugins .plugin-wrap img {
+  text-align: center;
+  margin: 0 auto 10px;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+img {
+  border-style: none;
+}
+
+@media (max-width: 468px) {
+  .bundled-plugins .plugin-wrap {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+  }
 }
